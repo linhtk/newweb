@@ -1,0 +1,11 @@
+AdminBundle\Entity\Pages:
+    type: entity
+    table: null
+    repositoryClass: AdminBundle\Repository\PagesRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
